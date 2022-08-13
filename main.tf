@@ -3,6 +3,8 @@
 
 provider "aws" {
     region = var.aws_region
+    access_key = "AKIAUBRFVK7YGO7Q6DO2"
+    secret_key = "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"
 }
 
 #creating the ec2-instance
